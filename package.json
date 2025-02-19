@@ -1,0 +1,23 @@
+{
+  "name": "my-vue3-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "postinstall": "echo '跳过重复安装'"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "vue-carousel": "^0.18.0",
+    "vue3-carousel": "^0.14.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=6.0.0"
+  }
+}
